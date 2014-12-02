@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8598BE3B-A965-41E1-8658-A86B53DC0EEB</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>000EFEBDD26F2896A02F563938772E1090E25EAF</key>
+		<string>https://github.com/photoplyr/ios-gymfarm.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>000EFEBDD26F2896A02F563938772E1090E25EAF</key>
+		<string>ios-gymfarm/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/photoplyr/ios-gymfarm.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>000EFEBDD26F2896A02F563938772E1090E25EAF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>000EFEBDD26F2896A02F563938772E1090E25EAF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-gymfarm</string>
+		</dict>
+	</array>
+</dict>
+</plist>

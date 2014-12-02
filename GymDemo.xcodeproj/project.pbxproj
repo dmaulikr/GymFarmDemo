@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1210731A2B8C5B00405ED9 /* libGymFarmLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1210711A2B8C5B00405ED9 /* libGymFarmLib.a */; };
+		4A159F9B1978B46800E883B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A159F9A1978B46800E883B3 /* Foundation.framework */; };
+		4A159F9D1978B46900E883B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A159F9C1978B46900E883B3 /* CoreGraphics.framework */; };
+		4A159F9F1978B46900E883B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A159F9E1978B46900E883B3 /* UIKit.framework */; };
+		4A159FA51978B46900E883B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A159FA31978B46900E883B3 /* InfoPlist.strings */; };
+		4A159FA71978B46900E883B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FA61978B46900E883B3 /* main.m */; };
+		4A159FAE1978B46900E883B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A159FAC1978B46900E883B3 /* Main.storyboard */; };
+		4A159FB11978B46900E883B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FB01978B46900E883B3 /* ViewController.m */; };
+		4A159FB31978B46900E883B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A159FB21978B46900E883B3 /* Images.xcassets */; };
+		4A159FBA1978B46900E883B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A159FB91978B46900E883B3 /* XCTest.framework */; };
+		4A159FBB1978B46900E883B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A159F9A1978B46800E883B3 /* Foundation.framework */; };
+		4A159FBC1978B46900E883B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A159F9E1978B46900E883B3 /* UIKit.framework */; };
+		4A159FC41978B46900E883B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A159FC21978B46900E883B3 /* InfoPlist.strings */; };
+		4A159FC61978B46900E883B3 /* FitMateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FC51978B46900E883B3 /* FitMateTests.m */; };
+		4A159FDD1978B4C400E883B3 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FD11978B4C400E883B3 /* MMDrawerController.m */; };
+		4A159FDE1978B4C400E883B3 /* MMDrawerController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FD31978B4C400E883B3 /* MMDrawerController+Storyboard.m */; };
+		4A159FDF1978B4C400E883B3 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FD61978B4C400E883B3 /* UIViewController+MMDrawerController.m */; };
+		4A159FE01978B4C400E883B3 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FD81978B4C400E883B3 /* MMDrawerBarButtonItem.m */; };
+		4A159FE11978B4C400E883B3 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FDA1978B4C400E883B3 /* MMDrawerVisualState.m */; };
+		4A159FE21978B4C400E883B3 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FDC1978B4C400E883B3 /* MMExampleDrawerVisualStateManager.m */; };
+		4A159FE51978B6B400E883B3 /* ImageMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FE41978B6B400E883B3 /* ImageMenuViewController.m */; };
+		4A159FE81978B6D200E883B3 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FE71978B6D200E883B3 /* DashBoardViewController.m */; };
+		4A159FEB1978B6E600E883B3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A159FEA1978B6E600E883B3 /* MainViewController.m */; };
+		4A397DDA1A1BF03C0096130C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DD91A1BF03C0096130C /* Parse.framework */; };
+		4A397DF91A1BFFC40096130C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DEF1A1BFFC40096130C /* SystemConfiguration.framework */; };
+		4A397DFB1A1BFFC40096130C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF11A1BFFC40096130C /* Security.framework */; };
+		4A397DFC1A1BFFC40096130C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF21A1BFFC40096130C /* QuartzCore.framework */; };
+		4A397DFD1A1BFFC40096130C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF31A1BFFC40096130C /* MobileCoreServices.framework */; };
+		4A397DFE1A1BFFC40096130C /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF41A1BFFC40096130C /* libz.1.1.3.dylib */; };
+		4A397DFF1A1BFFC40096130C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF51A1BFFC40096130C /* CoreLocation.framework */; };
+		4A397E001A1BFFC40096130C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF61A1BFFC40096130C /* CoreGraphics.framework */; };
+		4A397E011A1BFFC40096130C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF71A1BFFC40096130C /* CFNetwork.framework */; };
+		4A397E021A1BFFC40096130C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397DF81A1BFFC40096130C /* AudioToolbox.framework */; };
+		4A397E441A1C1ACA0096130C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A397E431A1C1ACA0096130C /* CoreBluetooth.framework */; };
+		4A397E501A1C33980096130C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A397E4F1A1C33980096130C /* AppDelegate.m */; };
+		4A397E531A1C392B0096130C /* WorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A397E521A1C392B0096130C /* WorkoutViewController.m */; };
+		4A5169F81A2D714900DA74CE /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5169F71A2D714900DA74CE /* UICountingLabel.m */; };
+		4A5169FB1A2D752B00DA74CE /* PulsingHaloLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5169FA1A2D752B00DA74CE /* PulsingHaloLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A159FBD1978B46900E883B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A159F8F1978B46800E883B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A159F961978B46800E883B3;
+			remoteInfo = FitMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1210711A2B8C5B00405ED9 /* libGymFarmLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGymFarmLib.a; path = "../../../Library/Developer/Xcode/DerivedData/GymFarmLib-dseslfzyxgnkykausouynuiwpaxz/Build/Products/Release-iphoneos/libGymFarmLib.a"; sourceTree = "<group>"; };
+		4A1210721A2B8C5B00405ED9 /* GymFarmLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GymFarmLib.h; path = ../GymFarmLib/GymFarmLib/GymFarmLib.h; sourceTree = "<group>"; };
+		4A159F971978B46800E883B3 /* GymDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A159F9A1978B46800E883B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A159F9C1978B46900E883B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A159F9E1978B46900E883B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A159FA21978B46900E883B3 /* GymDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GymDemo-Info.plist"; sourceTree = "<group>"; };
+		4A159FA41978B46900E883B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A159FA61978B46900E883B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A159FA81978B46900E883B3 /* GymDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GymDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4A159FA91978B46900E883B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A159FAD1978B46900E883B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A159FAF1978B46900E883B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A159FB01978B46900E883B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A159FB21978B46900E883B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A159FB81978B46900E883B3 /* GymDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A159FB91978B46900E883B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4A159FC11978B46900E883B3 /* GymDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GymDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4A159FC31978B46900E883B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A159FC51978B46900E883B3 /* FitMateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitMateTests.m; sourceTree = "<group>"; };
+		4A159FD01978B4C400E883B3 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		4A159FD11978B4C400E883B3 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		4A159FD21978B4C400E883B3 /* MMDrawerController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard.h"; sourceTree = "<group>"; };
+		4A159FD31978B4C400E883B3 /* MMDrawerController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController+Storyboard.m"; sourceTree = "<group>"; };
+		4A159FD41978B4C400E883B3 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		4A159FD51978B4C400E883B3 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		4A159FD61978B4C400E883B3 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		4A159FD71978B4C400E883B3 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		4A159FD81978B4C400E883B3 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		4A159FD91978B4C400E883B3 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		4A159FDA1978B4C400E883B3 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		4A159FDB1978B4C400E883B3 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		4A159FDC1978B4C400E883B3 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		4A159FE31978B6B400E883B3 /* ImageMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMenuViewController.h; sourceTree = "<group>"; };
+		4A159FE41978B6B400E883B3 /* ImageMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMenuViewController.m; sourceTree = "<group>"; };
+		4A159FE61978B6D200E883B3 /* DashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
+		4A159FE71978B6D200E883B3 /* DashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
+		4A159FE91978B6E600E883B3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4A159FEA1978B6E600E883B3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4A397DD91A1BF03C0096130C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../ios-gymfarm/Parse.framework"; sourceTree = "<group>"; };
+		4A397DEF1A1BFFC40096130C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4A397DF11A1BFFC40096130C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4A397DF21A1BFFC40096130C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4A397DF31A1BFFC40096130C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4A397DF41A1BFFC40096130C /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		4A397DF51A1BFFC40096130C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4A397DF61A1BFFC40096130C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A397DF71A1BFFC40096130C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4A397DF81A1BFFC40096130C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4A397E431A1C1ACA0096130C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4A397E4F1A1C33980096130C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A397E511A1C392B0096130C /* WorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutViewController.h; sourceTree = "<group>"; };
+		4A397E521A1C392B0096130C /* WorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutViewController.m; sourceTree = "<group>"; };
+		4A5169F61A2D714900DA74CE /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		4A5169F71A2D714900DA74CE /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		4A5169F91A2D752B00DA74CE /* PulsingHaloLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulsingHaloLayer.h; sourceTree = "<group>"; };
+		4A5169FA1A2D752B00DA74CE /* PulsingHaloLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulsingHaloLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A159F941978B46800E883B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A397E441A1C1ACA0096130C /* CoreBluetooth.framework in Frameworks */,
+				4A397E001A1BFFC40096130C /* CoreGraphics.framework in Frameworks */,
+				4A397DFF1A1BFFC40096130C /* CoreLocation.framework in Frameworks */,
+				4A397E021A1BFFC40096130C /* AudioToolbox.framework in Frameworks */,
+				4A397E011A1BFFC40096130C /* CFNetwork.framework in Frameworks */,
+				4A397DDA1A1BF03C0096130C /* Parse.framework in Frameworks */,
+				4A397DFD1A1BFFC40096130C /* MobileCoreServices.framework in Frameworks */,
+				4A159F9D1978B46900E883B3 /* CoreGraphics.framework in Frameworks */,
+				4A159F9F1978B46900E883B3 /* UIKit.framework in Frameworks */,
+				4A397DF91A1BFFC40096130C /* SystemConfiguration.framework in Frameworks */,
+				4A397DFB1A1BFFC40096130C /* Security.framework in Frameworks */,
+				4A159F9B1978B46800E883B3 /* Foundation.framework in Frameworks */,
+				4A397DFC1A1BFFC40096130C /* QuartzCore.framework in Frameworks */,
+				4A397DFE1A1BFFC40096130C /* libz.1.1.3.dylib in Frameworks */,
+				4A1210731A2B8C5B00405ED9 /* libGymFarmLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A159FB51978B46900E883B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A159FBA1978B46900E883B3 /* XCTest.framework in Frameworks */,
+				4A159FBC1978B46900E883B3 /* UIKit.framework in Frameworks */,
+				4A159FBB1978B46900E883B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A159F8E1978B46800E883B3 = {
+			isa = PBXGroup;
+			children = (
+				4A159FA01978B46900E883B3 /* FitMate */,
+				4A159FBF1978B46900E883B3 /* FitMateTests */,
+				4A159F991978B46800E883B3 /* Frameworks */,
+				4A159F981978B46800E883B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A159F981978B46800E883B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A159F971978B46800E883B3 /* GymDemo.app */,
+				4A159FB81978B46900E883B3 /* GymDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A159F991978B46800E883B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A1210711A2B8C5B00405ED9 /* libGymFarmLib.a */,
+				4A1210721A2B8C5B00405ED9 /* GymFarmLib.h */,
+				4A397E431A1C1ACA0096130C /* CoreBluetooth.framework */,
+				4A397DEF1A1BFFC40096130C /* SystemConfiguration.framework */,
+				4A397DF11A1BFFC40096130C /* Security.framework */,
+				4A397DF21A1BFFC40096130C /* QuartzCore.framework */,
+				4A397DF31A1BFFC40096130C /* MobileCoreServices.framework */,
+				4A397DF41A1BFFC40096130C /* libz.1.1.3.dylib */,
+				4A397DF51A1BFFC40096130C /* CoreLocation.framework */,
+				4A397DF61A1BFFC40096130C /* CoreGraphics.framework */,
+				4A397DF71A1BFFC40096130C /* CFNetwork.framework */,
+				4A397DF81A1BFFC40096130C /* AudioToolbox.framework */,
+				4A397DD91A1BF03C0096130C /* Parse.framework */,
+				4A159F9A1978B46800E883B3 /* Foundation.framework */,
+				4A159F9C1978B46900E883B3 /* CoreGraphics.framework */,
+				4A159F9E1978B46900E883B3 /* UIKit.framework */,
+				4A159FB91978B46900E883B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A159FA01978B46900E883B3 /* FitMate */ = {
+			isa = PBXGroup;
+			children = (
+				4A159FCF1978B4B500E883B3 /* DrawController */,
+				4A159FA91978B46900E883B3 /* AppDelegate.h */,
+				4A397E4F1A1C33980096130C /* AppDelegate.m */,
+				4A5169F61A2D714900DA74CE /* UICountingLabel.h */,
+				4A5169F71A2D714900DA74CE /* UICountingLabel.m */,
+				4A5169F91A2D752B00DA74CE /* PulsingHaloLayer.h */,
+				4A5169FA1A2D752B00DA74CE /* PulsingHaloLayer.m */,
+				4A159FEC1978B6EC00E883B3 /* MainViews */,
+				4A159FAC1978B46900E883B3 /* Main.storyboard */,
+				4A159FAF1978B46900E883B3 /* ViewController.h */,
+				4A159FB01978B46900E883B3 /* ViewController.m */,
+				4A397E511A1C392B0096130C /* WorkoutViewController.h */,
+				4A397E521A1C392B0096130C /* WorkoutViewController.m */,
+				4A159FB21978B46900E883B3 /* Images.xcassets */,
+				4A159FA11978B46900E883B3 /* Supporting Files */,
+			);
+			path = FitMate;
+			sourceTree = "<group>";
+		};
+		4A159FA11978B46900E883B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A159FA21978B46900E883B3 /* GymDemo-Info.plist */,
+				4A159FA31978B46900E883B3 /* InfoPlist.strings */,
+				4A159FA61978B46900E883B3 /* main.m */,
+				4A159FA81978B46900E883B3 /* GymDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A159FBF1978B46900E883B3 /* FitMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A159FC51978B46900E883B3 /* FitMateTests.m */,
+				4A159FC01978B46900E883B3 /* Supporting Files */,
+			);
+			path = FitMateTests;
+			sourceTree = "<group>";
+		};
+		4A159FC01978B46900E883B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A159FC11978B46900E883B3 /* GymDemoTests-Info.plist */,
+				4A159FC21978B46900E883B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A159FCF1978B4B500E883B3 /* DrawController */ = {
+			isa = PBXGroup;
+			children = (
+				4A159FD01978B4C400E883B3 /* MMDrawerController.h */,
+				4A159FD11978B4C400E883B3 /* MMDrawerController.m */,
+				4A159FD21978B4C400E883B3 /* MMDrawerController+Storyboard.h */,
+				4A159FD31978B4C400E883B3 /* MMDrawerController+Storyboard.m */,
+				4A159FD41978B4C400E883B3 /* MMDrawerController+Subclass.h */,
+				4A159FD51978B4C400E883B3 /* UIViewController+MMDrawerController.h */,
+				4A159FD61978B4C400E883B3 /* UIViewController+MMDrawerController.m */,
+				4A159FD71978B4C400E883B3 /* MMDrawerBarButtonItem.h */,
+				4A159FD81978B4C400E883B3 /* MMDrawerBarButtonItem.m */,
+				4A159FD91978B4C400E883B3 /* MMDrawerVisualState.h */,
+				4A159FDA1978B4C400E883B3 /* MMDrawerVisualState.m */,
+				4A159FDB1978B4C400E883B3 /* MMExampleDrawerVisualStateManager.h */,
+				4A159FDC1978B4C400E883B3 /* MMExampleDrawerVisualStateManager.m */,
+			);
+			name = DrawController;
+			sourceTree = "<group>";
+		};
+		4A159FEC1978B6EC00E883B3 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				4A159FE31978B6B400E883B3 /* ImageMenuViewController.h */,
+				4A159FE41978B6B400E883B3 /* ImageMenuViewController.m */,
+				4A159FE91978B6E600E883B3 /* MainViewController.h */,
+				4A159FEA1978B6E600E883B3 /* MainViewController.m */,
+				4A159FE61978B6D200E883B3 /* DashBoardViewController.h */,
+				4A159FE71978B6D200E883B3 /* DashBoardViewController.m */,
+			);
+			name = MainViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A159F961978B46800E883B3 /* GymDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A159FC91978B46900E883B3 /* Build configuration list for PBXNativeTarget "GymDemo" */;
+			buildPhases = (
+				4A159F931978B46800E883B3 /* Sources */,
+				4A159F941978B46800E883B3 /* Frameworks */,
+				4A159F951978B46800E883B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymDemo;
+			productName = FitMate;
+			productReference = 4A159F971978B46800E883B3 /* GymDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A159FB71978B46900E883B3 /* GymDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A159FCC1978B46900E883B3 /* Build configuration list for PBXNativeTarget "GymDemoTests" */;
+			buildPhases = (
+				4A159FB41978B46900E883B3 /* Sources */,
+				4A159FB51978B46900E883B3 /* Frameworks */,
+				4A159FB61978B46900E883B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A159FBE1978B46900E883B3 /* PBXTargetDependency */,
+			);
+			name = GymDemoTests;
+			productName = FitMateTests;
+			productReference = 4A159FB81978B46900E883B3 /* GymDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A159F8F1978B46800E883B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "troy simon";
+				TargetAttributes = {
+					4A159F961978B46800E883B3 = {
+						DevelopmentTeam = B6TAM5446D;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					4A159FB71978B46900E883B3 = {
+						TestTargetID = 4A159F961978B46800E883B3;
+					};
+				};
+			};
+			buildConfigurationList = 4A159F921978B46800E883B3 /* Build configuration list for PBXProject "GymDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A159F8E1978B46800E883B3;
+			productRefGroup = 4A159F981978B46800E883B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A159F961978B46800E883B3 /* GymDemo */,
+				4A159FB71978B46900E883B3 /* GymDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A159F951978B46800E883B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A159FB31978B46900E883B3 /* Images.xcassets in Resources */,
+				4A159FA51978B46900E883B3 /* InfoPlist.strings in Resources */,
+				4A159FAE1978B46900E883B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A159FB61978B46900E883B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A159FC41978B46900E883B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A159F931978B46800E883B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5169FB1A2D752B00DA74CE /* PulsingHaloLayer.m in Sources */,
+				4A159FB11978B46900E883B3 /* ViewController.m in Sources */,
+				4A397E531A1C392B0096130C /* WorkoutViewController.m in Sources */,
+				4A159FE21978B4C400E883B3 /* MMExampleDrawerVisualStateManager.m in Sources */,
+				4A5169F81A2D714900DA74CE /* UICountingLabel.m in Sources */,
+				4A159FE81978B6D200E883B3 /* DashBoardViewController.m in Sources */,
+				4A159FDE1978B4C400E883B3 /* MMDrawerController+Storyboard.m in Sources */,
+				4A159FDF1978B4C400E883B3 /* UIViewController+MMDrawerController.m in Sources */,
+				4A159FE51978B6B400E883B3 /* ImageMenuViewController.m in Sources */,
+				4A159FEB1978B6E600E883B3 /* MainViewController.m in Sources */,
+				4A159FE11978B4C400E883B3 /* MMDrawerVisualState.m in Sources */,
+				4A397E501A1C33980096130C /* AppDelegate.m in Sources */,
+				4A159FDD1978B4C400E883B3 /* MMDrawerController.m in Sources */,
+				4A159FA71978B46900E883B3 /* main.m in Sources */,
+				4A159FE01978B4C400E883B3 /* MMDrawerBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A159FB41978B46900E883B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A159FC61978B46900E883B3 /* FitMateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A159FBE1978B46900E883B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A159F961978B46800E883B3 /* GymDemo */;
+			targetProxy = 4A159FBD1978B46900E883B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A159FA31978B46900E883B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A159FA41978B46900E883B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A159FAC1978B46900E883B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A159FAD1978B46900E883B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A159FC21978B46900E883B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A159FC31978B46900E883B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A159FC71978B46900E883B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A159FC81978B46900E883B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A159FCA1978B46900E883B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GymFarmEngine-fzwtjdpiarexjxatfedlhpinprcz/Build/Products/Debug-iphoneos",
+					"/Users/troysimon/Documents/xcode/ios-gymfarm",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMate/GymDemo-Prefix.pch";
+				INFOPLIST_FILE = "FitMate/GymDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GymFarmLib-dseslfzyxgnkykausouynuiwpaxz/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GymFarmLib-dseslfzyxgnkykausouynuiwpaxz/Build/Products/Release-iphoneos",
+				);
+				PRODUCT_NAME = GymDemo;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A159FCB1978B46900E883B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GymFarmEngine-fzwtjdpiarexjxatfedlhpinprcz/Build/Products/Debug-iphoneos",
+					"/Users/troysimon/Documents/xcode/ios-gymfarm",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMate/GymDemo-Prefix.pch";
+				INFOPLIST_FILE = "FitMate/GymDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GymFarmLib-dseslfzyxgnkykausouynuiwpaxz/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GymFarmLib-dseslfzyxgnkykausouynuiwpaxz/Build/Products/Release-iphoneos",
+				);
+				PRODUCT_NAME = GymDemo;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A159FCD1978B46900E883B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitMate.app/FitMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMate/FitMate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FitMateTests/GymDemoTests-Info.plist";
+				PRODUCT_NAME = GymDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4A159FCE1978B46900E883B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FitMate.app/FitMate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitMate/FitMate-Prefix.pch";
+				INFOPLIST_FILE = "FitMateTests/GymDemoTests-Info.plist";
+				PRODUCT_NAME = GymDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A159F921978B46800E883B3 /* Build configuration list for PBXProject "GymDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A159FC71978B46900E883B3 /* Debug */,
+				4A159FC81978B46900E883B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A159FC91978B46900E883B3 /* Build configuration list for PBXNativeTarget "GymDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A159FCA1978B46900E883B3 /* Debug */,
+				4A159FCB1978B46900E883B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A159FCC1978B46900E883B3 /* Build configuration list for PBXNativeTarget "GymDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A159FCD1978B46900E883B3 /* Debug */,
+				4A159FCE1978B46900E883B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A159F8F1978B46800E883B3 /* Project object */;
+}
